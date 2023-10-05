@@ -8,7 +8,7 @@
     <div class="flex">
 
         <!-- v NavBar -->
-        <nav class="bg-indigo-900 w-64">
+        <nav class="bg-indigo-900 w-64 h-screen">
             
             <!-- v Header -->
             <div class="bg-indigo-800">
@@ -94,7 +94,31 @@
         <!-- ^ NavBar -->
 
         <!-- v Main Content -->
-        <main>Main Content Area</main>
+        <main class="flex-1">
+            <div>
+                <!-- v Top NavBar -->
+                <div class="bg-white px-2 py-0.5 h-18 flex">
+
+                        <!-- v User Banner -->
+                        <div class="flex sm:1/3 md:w-3/4 items-center p-3">
+                            <img class="h-10 w-10" src="assets/person.png" alt="Person Image">
+                            <span class="block p-2 font-semibold">John Doe</span>
+                        </div>
+                        <!-- ^ User Banner -->
+
+                        <!-- v Banner Right -->
+                        <div class="flex sm:2/3 md:w-1/4 items-center">
+                            <img class="w-7 h-7 bg-gray-100 rounded-full p-1 mx-2" src="assets/search.png" alt="">
+                            <img class="w-7 h-7 bg-gray-100 rounded-full p-1 mx-2" src="assets/message.png" alt="">
+                            <img class="w-7 h-7 bg-gray-100 rounded-full p-1 mx-2" src="assets/warning.png" alt="">
+                            <a href="" class="mx-2 text-indigo-500">Logout</a>
+                        </div>
+                        <!-- ^ Banner Right -->
+                </div>
+                <!-- ^ Top NavBar -->
+            </div>
+
+        </main>
         <!-- ^ Main Content -->
     </div>
 </body>
